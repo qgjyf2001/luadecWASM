@@ -1,0 +1,585 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Nov 29 10:22:13 2021
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=fcitx
+# makefile
+CURDIR := /home/qgjyf2001/temp/NN/luadec/luadec
+# makefile
+SHELL = /bin/sh
+# makefile (from 'Makefile', line 14)
+RM = rm -f
+# makefile (from 'Makefile', line 4)
+LUASRC = ../lua-$(LUAVER)/src
+# makefile (from 'Makefile', line 47)
+T = luadec
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# makefile (from 'Makefile', line 17)
+CFLAGS = -O2 -Wall -DSRCVERSION=\"$(SRCVERSION)\" $(INCS) $(MYCFLAGS)
+# environment
+JOURNAL_STREAM = 8:47238
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 9)
+LUAC = $(LUASRC)/luac
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# makefile (from 'Makefile', line 13)
+CP = cp -f
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = qgjyf2001
+# environment
+MAKELEVEL := 0
+# environment
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'Makefile', line 44)
+OBJS = guess.o luadec.o decompile.o disassemble.o proto.o StringBuffer.o structs.o statement.o macro-array.o expression.o
+# environment
+MANAGERPID = 1511
+# environment
+CLUTTER_IM_MODULE = fcitx
+# makefile (from 'Makefile', line 43)
+INCS = -I$(LUASRC)
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = zh_CN.UTF-8
+# environment
+VSCODE_CWD = /home/qgjyf2001
+# makefile (from 'Makefile', line 33)
+GIT_STATUS := 0
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/qgjyf2001/.local/bin:~/anaconda3/bin:/home/qgjyf2001/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+SESSION_MANAGER = local/wycfather:@/tmp/.ICE-unix/1726,unix/wycfather:/tmp/.ICE-unix/1726
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 38)
+MYCFLAGS = 
+# makefile (from 'Makefile', line 35)
+SRCVERSION := 895d923
+# makefile (from 'Makefile', line 19)
+AR = ar rcu
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=50a9fddc-b1e9-4ca0-a496-2364db743386&iid=50a9fddc-b1e9-4ca0-a496-2364db743386&sid=50a9fddc-b1e9-4ca0-a496-2364db743386","uploadToServer":true}
+# environment
+INVOCATION_ID = 9245938fdff7401da0c7f4336b729df7
+# makefile (from 'Makefile', line 18)
+LDFLAGS = $(MYLDFLAGS)
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 11953
+# automatic
+%F = $(notdir $%)
+# makefile (from 'Makefile', line 40)
+MYLIBS = 
+# environment
+DISPLAY = :1
+# environment
+GTK_IM_MODULE = fcitx
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/qgjyf2001/temp/NN/luadec/luadec
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1683
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# makefile (from 'Makefile', line 41)
+MYOBJS = 
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/qgjyf2001
+# environment
+LD_LIBRARY_PATH = :/usr/local/lib
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = qgjyf2001
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from 'Makefile', line 20)
+RANLIB = ranlib
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = zh_CN.UTF-8
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = fcitx
+# makefile (from 'Makefile', line 45)
+SRCS = guess.c luadec.c decompile.c disassemble.c proto.c StringBuffer.c structs.c statement.c macro-array.c expression.c
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 6)
+BINDIR = ../bin
+# makefile (from 'Makefile', line 16)
+CC = cc
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-44606773-8731-4883-9be5-964707480ac8.sock
+# makefile (from 'Makefile', line 8)
+LUA = $(LUASRC)/lua
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = qgjyf2001
+# environment
+LC_MONETARY = zh_CN.UTF-8
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# makefile (from 'Makefile', line 3)
+LUAVER = 5.3
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = zh_CN.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = /home/qgjyf2001/.config/Code/CachedData/054a9295330880ed74ceaedda236253b4f39a335
+# makefile (from 'Makefile', line 29)
+SVN_STATUS := 127
+# makefile (from 'Makefile', line 5)
+LIBDIR = $(LUASRC)
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = zh_CN:zh:en_US:en
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-fe830ca3-1.56.2-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/qgjyf2001/.config/Code/exthost Crash Reports
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = zh_CN.UTF-8
+# makefile (from 'Makefile', line 10)
+BIN2C = $(LUA) $(BINDIR)/bin2c.lua
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = zh_CN.UTF-8
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+LC_MEASUREMENT = zh_CN.UTF-8
+# makefile (from 'Makefile', line 39)
+MYLDFLAGS = 
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 77)
+LUNDUMP := 
+# environment
+QT4_IM_MODULE = fcitx
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# makefile (from 'Makefile', line 21)
+LIBS = -lm $(MYLIBS)
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = zh_CN.UTF-8
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 12)
+DEV_NULL = /dev/null
+# environment
+LC_ADDRESS = zh_CN.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 11953
+# variable set hash-table stats:
+# Load=144/1024=14%, Rehash=0, Collisions=25/217=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2067, inode 2842733): 47 files, no impossibilities.
+
+ 
+# 47 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+allopcodes.luac: ../bin/allopcodes-5.3.lua
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 73):
+	$(LUAC) -o allopcodes.luac $(BINDIR)/allopcodes-$(LUAVER).lua
+
+# Not a target:
+macro-array.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-29 10:10:52.850132055
+#  File has been updated.
+#  Successfully updated.
+
+all: luadec
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/8=0%
+
+luadec: guess.o luadec.o decompile.o disassemble.o proto.o StringBuffer.o structs.o statement.o macro-array.o expression.o ../lua-5.3/src/liblua.a
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Last modified 2021-11-29 09:56:33.17027078
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := luadec
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := guess.o luadec.o decompile.o disassemble.o proto.o StringBuffer.o structs.o statement.o macro-array.o expression.o ../lua-5.3/src/liblua.a
+# automatic
+# | := 
+# automatic
+# < := guess.o
+# automatic
+# ^ := guess.o luadec.o decompile.o disassemble.o proto.o StringBuffer.o structs.o statement.o macro-array.o expression.o ../lua-5.3/src/liblua.a
+# automatic
+# ? := guess.o luadec.o decompile.o disassemble.o proto.o StringBuffer.o structs.o statement.o macro-array.o expression.o ../lua-5.3/src/liblua.a
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/18=6%
+#  recipe to execute (from 'Makefile', line 52):
+	$(CC)  -o $@ $(LDFLAGS) $^ $(LIBS)
+
+# Not a target:
+luadec.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-29 10:15:56.450463314
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+luareplace.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+disassemble.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-29 10:10:52.29813803
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+../lua-5.3/src/liblua.a:
+#  Implicit rule search has not been done.
+#  Last modified 2021-11-29 09:59:41.729572602
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 64):
+	cd $(LUASRC); $(MAKE)
+
+# Not a target:
+lundump-5.1.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-29 09:54:48.657445779
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+structs.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-29 10:10:52.634134393
+#  File has been updated.
+#  Successfully updated.
+
+debug:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 55):
+	$(MAKE) all MYCFLAGS="-g -DDEBUG -D_DEBUG"
+
+# Not a target:
+../memwatch/memwatch.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+StringBuffer.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-29 10:10:52.522135605
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+../bin/allopcodes-5.3.lua:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+statement.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-29 10:10:52.754133095
+#  File has been updated.
+#  Successfully updated.
+
+luaopswap: luaopswap.o ../lua-5.3/src/liblua.a
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 84):
+	$(CC) -o $@ $(LDFLAGS) $^ $(LIBS)
+
+# Not a target:
+../memwatch/memwatch.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+decompile.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-29 10:10:52.174139372
+#  File has been updated.
+#  Successfully updated.
+
+memwatch:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 58):
+	$(MAKE) all MYCFLAGS="-g -DDEBUG -D_DEBUG -DMEMCHECK_MEMWATCH -I../memwatch/" MYOBJS="memwatch.o"
+
+memwatch.o: ../memwatch/memwatch.c ../memwatch/memwatch.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 61):
+	$(CC) -o $@ -c $(CFLAGS) $(INCS) ../memwatch/memwatch.c
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+allopcodes_luac.h: allopcodes.luac
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 75):
+	$(BIN2C) allopcodes.luac allopcodes_luac > allopcodes_luac.h
+
+# Not a target:
+expression.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-29 10:10:52.946131016
+#  File has been updated.
+#  Successfully updated.
+
+luaopswap.o: luaopswap.c allopcodes_lua.h allopcodes_luac.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+guess.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-29 10:10:51.542146208
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 87):
+	$(RM) *.o *.exe
+	$(RM) allopcodes*
+
+# Not a target:
+luaopswap.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+luareplace: luareplace.o ../lua-5.3/src/liblua.a
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 68):
+	$(CC) -o $@ $(LDFLAGS) $^ $(LIBS)
+
+luareplace.o: luareplace.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+allopcodes_lua.h: ../bin/allopcodes-5.3.lua
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 71):
+	$(BIN2C) $(BINDIR)/allopcodes-$(LUAVER).lua allopcodes_lua > allopcodes_lua.h
+
+lundump-5.1.o: lundump-5.1.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+proto.o:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-29 10:10:52.418136731
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=34/1024=3%, Rehash=0, Collisions=4/74=5%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 66 / storage = 826 B / avg = 12 B
+# current buf: size = 8162 B / used = 826 B / count = 66 / avg = 12 B
+
+# strcache performance: lookups = 113 / hit rate = 41%
+# hash-table stats:
+# Load=66/8192=1%, Rehash=0, Collisions=2/113=2%
+# Finished Make data base on Mon Nov 29 10:22:13 2021
+
+ 

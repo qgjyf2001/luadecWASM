@@ -1,0 +1,21 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/qgjyf2001/temp/NN/luadec/luadec'
+ 
+cc -O2 -Wall -DSRCVERSION=\"895d923\" -I../lua-5.3/src    -c -o guess.o guess.c
+cc -O2 -Wall -DSRCVERSION=\"895d923\" -I../lua-5.3/src    -c -o luadec.o luadec.c
+cc -O2 -Wall -DSRCVERSION=\"895d923\" -I../lua-5.3/src    -c -o decompile.o decompile.c
+cc -O2 -Wall -DSRCVERSION=\"895d923\" -I../lua-5.3/src    -c -o disassemble.o disassemble.c
+cc -O2 -Wall -DSRCVERSION=\"895d923\" -I../lua-5.3/src    -c -o proto.o proto.c
+cc -O2 -Wall -DSRCVERSION=\"895d923\" -I../lua-5.3/src    -c -o StringBuffer.o StringBuffer.c
+cc -O2 -Wall -DSRCVERSION=\"895d923\" -I../lua-5.3/src    -c -o structs.o structs.c
+cc -O2 -Wall -DSRCVERSION=\"895d923\" -I../lua-5.3/src    -c -o statement.o statement.c
+cc -O2 -Wall -DSRCVERSION=\"895d923\" -I../lua-5.3/src    -c -o macro-array.o macro-array.c
+cc -O2 -Wall -DSRCVERSION=\"895d923\" -I../lua-5.3/src    -c -o expression.o expression.c
+cd ../lua-5.3/src; make
+make[1]: Entering directory '/home/qgjyf2001/temp/NN/luadec/lua-5.3/src'
+echo "Please do 'make PLATFORM' where PLATFORM is one of these:"
+echo "   aix bsd c89 freebsd generic linux macosx mingw posix solaris"
+make[1]: Leaving directory '/home/qgjyf2001/temp/NN/luadec/lua-5.3/src'
+cc  -o luadec  guess.o luadec.o decompile.o disassemble.o proto.o StringBuffer.o structs.o statement.o macro-array.o expression.o ../lua-5.3/src/liblua.a -lm 
+make: Leaving directory '/home/qgjyf2001/temp/NN/luadec/luadec'
+ 
